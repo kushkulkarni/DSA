@@ -1,6 +1,8 @@
+#include <vector>
+using namespace std;
+
 class Solution {
-    #include <vector>
-public:
+    public:
     int singleNonDuplicate(vector<int>& nums) {
         int n = nums.size();
         int start = 0;

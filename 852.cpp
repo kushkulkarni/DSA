@@ -1,6 +1,7 @@
+#include <vector>
+using namespace std;
 
 class Solution {
-    #include <vector>
     public:
     int peakIndexInMountainArray(vector<int>& arr) {
         int start = 1;
